@@ -26,6 +26,8 @@ sudo apt-get install kubectl -y
 
 gcloud config list
 
+gcloud config set project PROJECT_ID
+
 gcloud projects get-iam-policy e00049-projects-workspace			# list iam policy
 
 gcloud compute addresses list
