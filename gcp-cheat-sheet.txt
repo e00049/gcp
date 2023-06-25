@@ -32,3 +32,4 @@ gcloud projects get-iam-policy e00049-projects-workspace			# list iam policy
 
 gcloud compute addresses list
 
+gcloud compute reset-windows-password instance-1 --zone us-central1-c --user admin - reset windows password
