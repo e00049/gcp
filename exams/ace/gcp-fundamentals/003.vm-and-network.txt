@@ -1,0 +1,181 @@
+Virtual Machines and Networks in the Cloud
+
+Quiz: Virtual Machines and Networks in the Cloud
+Your score: 100% Passing score: 75%
+Congratulations! You passed this assessment.
+check
+1.
+
+Preemptible VMs can offer advantages over a standard Compute Engine VM. What is a reason customers choose preemptible VMs?
+
+To improve performance
+check
+To reduce cost
+
+To use custom machine types
+
+To reduce cost on premium operating systems
+That's correct! The per-hour price of preemptible VMs incorporates a substantial discount.
+
+check
+2.
+
+Which statement best describes how VPC routers and firewalls work?
+check
+They are managed by Google as a built-in feature.
+
+Customers provision virtual machines and run their routers and firewalls in them.
+
+They are managed by Google in virtual machines and customers can tune or deactivate them.
+
+They are managed by Google in virtual machines and customers cannot modify them.
+Correct!
+
+check
+3.
+
+A Google Cloud customer wants to load-balance traffic among the backend VMs that form part of a multi-tier application. Which load-balancing option should this customer choose?
+
+The regional load balancer
+check
+The regional internal load balancer
+
+The global SSL proxy
+
+The global HTTP(S) load balancer
+
+The global TCP proxy
+Correct!
+
+check
+4.
+
+Which term describes a secure, individual, private cloud-computing model hosted within a public cloud?
+check
+Virtual private cloud (VPC)
+
+Virtual private network (VPN)
+
+Content delivery network (CDN)
+
+Domain name system (DNS)
+Correct!
+
+check
+5.
+
+Select the true statement about Google’s VPC networks and subnets.
+check
+Networks are global, and subnets are regional.
+
+Both networks and subnets are global.
+
+Networks are regional, and subnets are zonal.
+
+Networks are global, and subnets are zonal.
+Correct!
+
+check
+6.
+
+Which interconnect option is a service level agreement (SLA) available for?
+check
+Dedicated Interconnect
+
+Standard Network Tier
+
+Direct Peering
+
+Carrier Peering
+Correct!
+
+------------------------------------------------------------------------
+
+Quiz: Storage in the Cloud
+Your score: 100% Passing score: 75%
+Congratulations! You passed this assessment.
+check
+1.
+How are Firestore and Bigtable alike? (Select two answers.)
+check
+They are both NoSQL databases.
+Correct!
+
+
+They both have a free daily quota.
+
+They both offer SQL-like queries.
+check
+They are both highly scalable.
+Correct!
+
+check
+2.
+
+Which SQL database service can scale to petabyte database sizes?
+
+Cloud SQL
+
+Firestore
+
+Bigtable
+check
+Cloud Spanner
+Correct!
+
+check
+3.
+
+You manufacture devices with sensors and need to stream huge amounts of data from these devices to a storage option in the cloud. Which storage option is the best choice for your application?
+check
+Bigtable
+
+Cloud Spanner
+
+BigQuery
+
+Firestore
+Correct!
+
+check
+4.
+
+Why would a customer consider the Coldline Storage class?
+check
+To save money on storing infrequently accessed data
+
+To use the Coldline Storage API
+
+To improve security
+
+To save money on storing frequently accessed data
+Correct!
+
+check
+5.
+
+Which statement describes the correct Cloud Storage use case?
+
+Cloud Storage provides the root file system of a Linux virtual machine.
+
+Cloud Storage provides RDBMS (Relational Database Management System) services.
+
+Cloud Storage provides data warehousing services.
+check
+Cloud Storage provides durable and highly available object storage.
+Correct!
+
+check
+6.
+
+Your application needs to store data with strong transactional consistency, and you want seamless scaling up. Which storage option is the best choice for your application?
+check
+Cloud Spanner
+
+Firestore
+
+Cloud Storage
+
+Cloud SQL
+Correct!
+
