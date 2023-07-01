@@ -1,0 +1,94 @@
+Quiz: Applications in the Cloud
+
+Congratulations! You passed this assessment.
+check
+1.
+
+Select the managed compute platform that lets you run stateless containers through web requests or Pub/Sub events.
+
+Cloud Endpoints
+
+Cloud Source Repositories
+
+Apigee API Management
+check
+Cloud Run
+Correct!
+
+check
+2.
+
+Cloud Run can only pull images from:
+
+Self-hosted registries
+
+GitHub
+
+Docker Hub
+check
+Artifact Registry
+Correct!
+
+check
+3.
+What are the advantages of using App Engine’s flexible environment instead of its standard environment? (Select 3).
+check
+You can install third-party binaries across all languages.
+Correct!
+
+
+Your application can execute code in background threads.
+
+Google provides automatic in-place security patches.
+check
+Your application can write to the local disk.
+Correct!
+
+check
+You can use SSH to connect to the virtual machines on which your application runs.
+Correct!
+
+check
+4.
+
+Which Google Cloud service should you choose to perform business analytics and billing on a customer-facing API?
+
+Compute Engine API
+
+Cloud Run API
+
+Cloud Endpoints
+check
+Apigee API Management
+Correct!
+
+check
+5.
+Which statements are true about App Engine? (Select 2).
+
+App Engine requires you to supply or code your own application load balancing and logging services.
+
+Developers who write for App Engine do not need to code their applications in any particular way to use the service.
+
+App Engine charges you based on the resources you preallocate instead of the resources you use.
+check
+The daily billing for an App Engine application can drop to zero.
+Correct!
+
+check
+App Engine manages the hardware and networking infrastructure required to run your code.
+Correct!
+
+check
+6.
+
+App Engine is best suited to the development and hosting of which type of application?
+
+Applications that require full control of the hardware they are running on
+
+Applications that require at least one instance running at all times.
+
+A long-running batch processing application
+check
+A web application
+Correct!
