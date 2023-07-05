@@ -1,0 +1,13 @@
+nano life.json
+
+{
+  "rule":
+  [
+    {
+      "action": {"type": "Delete"},
+      "condition": {"age": 31}
+    }
+  ]
+}
+
+gsutil lifecycle set life.json gs://my_bucket
