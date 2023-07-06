@@ -28,6 +28,8 @@ gcloud config list
 
 gcloud config set project PROJECT_ID
 
+gcloud storage cat gs://$BUCKET_NAME_2/$FILE_NAME 
+
 gcloud projects get-iam-policy e00049-projects-workspace			# list iam policy
 
 gcloud compute addresses list
