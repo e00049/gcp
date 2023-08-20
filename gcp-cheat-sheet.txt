@@ -14,7 +14,7 @@ curl https://packages.cloud.google.com/apt/doc/apt-key.gpg | sudo apt-key add -
 sudo apt-get update && sudo apt-get install google-cloud-cli -y
 sudo apt-get install google-cloud-cli* -y
 
-gcloud init --skip-diagnostics
+gcloud init --skip-diagnostics (or)
 gcloud auth activate-service-account --key-file=e00049-projects-workspace.json
 
 sudo apt-get install google-cloud-sdk-gke-gcloud-auth-plugin
