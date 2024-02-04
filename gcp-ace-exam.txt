@@ -1,0 +1,12 @@
+to list out all the iam-policies:
+
+--> gcloud projects get-iam-policy my-first-project
+
+to list out the instance list using gcloud command:
+
+--> gcloud compute instances list --project e00049-projects-workspace
+
+to create cluster using gcloud command:
+
+--> gcloud containers cluster create mycluster --num-nodes=4 --zone=us-central1-a 
+
