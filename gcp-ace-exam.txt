@@ -10,3 +10,7 @@ to create cluster using gcloud command:
 
 --> gcloud containers cluster create mycluster --num-nodes=4 --zone=us-central1-a 
 
+to create new bucket in gcp using cli:
+
+--> gsutil mb -p myproject -l us gs://e00049
+
