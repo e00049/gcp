@@ -14,3 +14,7 @@ to create new bucket in gcp using cli:
 
 --> gsutil mb -p myproject -l us gs://e00049
 
+to create firewall rule for vpc using gcloud command:
+
+--> gcloud compue firewall-rules create "remote-access"  --network "whizlab-netwrok" --allow tcp:3389 
+
