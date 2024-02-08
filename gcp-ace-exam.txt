@@ -18,3 +18,6 @@ to create firewall rule for vpc using gcloud command:
 
 --> gcloud compue firewall-rules create "remote-access"  --network "whizlab-netwrok" --allow tcp:3389 
 
+to increase the size of the cluster using gcloud command:
+
+--> gcloud container clusters resize my-cluster --size=5 --region=us-central1
