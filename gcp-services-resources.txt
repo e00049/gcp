@@ -1,0 +1,50 @@
+01. Compute Services and Resources:
+	- Compute Engine
+	- App Engine
+  - VMWare Engine
+	
+02. Storage Service and Resources:
+	- Persistance Disk 
+	- File Store
+	- Cloud Storage
+
+03. Network Service and Resources:
+	- Virtual Private Network
+	- Subnets
+	- Cloud CND
+	- Cloud DNS
+	
+04. Database and Resources:
+	- Cloud SQL
+	- FireStore
+	- Spinner
+	- BigTable
+	- BigQuery
+
+05. Serverless and Resources:
+	- Cloud Function
+  - Batch
+	
+06. Container service and Resources:
+	- Cloud Run
+	- Artifactory Registory
+	- Kubernetes Engine
+
+07. Monitoring and Alert Service and Resources:
+	- Stack Driver
+	- Logging
+	- Monitoring
+	- Error Reporting
+
+08. IAM, Security and Billing and Resources
+	- Billing Account
+	- IAM
+	- Identity Platform
+	- Market place	
+
+09. Migration Service and Resources:
+	- Migration Center
+	- Deployment Manager
+  - Storage Transfer
+
+10. Other Services and Resources:
