@@ -1,7 +1,7 @@
 01. Compute Services and Resources:
 	- Compute Engine
 	- App Engine
-  - VMWare Engine
+	- VMWare Engine
 	
 02. Storage Service and Resources:
 	- Persistance Disk 
@@ -23,7 +23,7 @@
 
 05. Serverless and Resources:
 	- Cloud Function
-  - Batch
+	- Batch
 	
 06. Container service and Resources:
 	- Cloud Run
@@ -45,6 +45,6 @@
 09. Migration Service and Resources:
 	- Migration Center
 	- Deployment Manager
-  - Storage Transfer
+	- Storage Transfer
 
 10. Other Services and Resources:
