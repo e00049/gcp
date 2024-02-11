@@ -2,6 +2,7 @@
 	- Compute Engine
 	- App Engine
 	- VMWare Engine
+	- Deployment manager
 	
 02. Storage Service and Resources:
 	- Persistance Disk 
@@ -10,20 +11,34 @@
 
 03. Network Service and Resources:
 	- Virtual Private Network
+	- Elastic Load Balancer
 	- Subnets
 	- Cloud CND
 	- Cloud DNS
+	- Security and Compliance
+	- Identity Platform
 	
 04. Database and Resources:
 	- Cloud SQL
 	- FireStore
-	- Spinner
+	- Spanner
 	- BigTable
 	- BigQuery
+	- Datastore
+	- Memorystore
+	- MongoDB Atlas
 
 05. Serverless and Resources:
 	- Cloud Function
 	- Batch
+	- API Gateway
+	- Endpoints
+	- Cloud Scheduler
+	- Cloud Tasks
+	- Workflows
+	- Eventarc
+	- Application Integreation
+	- Integration Connectors
 	
 06. Container service and Resources:
 	- Cloud Run
@@ -35,6 +50,9 @@
 	- Logging
 	- Monitoring
 	- Error Reporting
+	- Trace
+	- Profiler
+	- Capacity Planner
 
 08. IAM, Security and Billing and Resources
 	- Billing Account
@@ -46,5 +64,9 @@
 	- Migration Center
 	- Deployment Manager
 	- Storage Transfer
+	- Transfer Appliances
+	- Edge
+	- Appliances
 
 10. Other Services and Resources:
+	- APIGee - API Management
