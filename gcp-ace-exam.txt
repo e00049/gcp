@@ -21,3 +21,7 @@ to create firewall rule for vpc using gcloud command:
 to increase the size of the cluster using gcloud command:
 
 --> gcloud container clusters resize my-cluster --size=5 --region=us-central1
+
+to delete instance template using glcloud command:
+
+--> gcloud compute instance-templates delete my-instance-template
