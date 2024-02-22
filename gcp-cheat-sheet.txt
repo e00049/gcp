@@ -46,5 +46,5 @@ gcloud compute routers create on-prem-router1 \
 
 gcloud container clusters create example-cluster --zone us-central1-a --node-locations us-central1-a,us-central1-b,us-central1-c
 
-gcloud beta billing accounts list
+gcloud billing accounts list
 
