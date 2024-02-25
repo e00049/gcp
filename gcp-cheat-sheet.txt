@@ -50,3 +50,6 @@ gcloud billing accounts list
 
 gcloud iam roles update editot --project e00049 --stage disabled 
 
+gcloud compute networks list
+
+
