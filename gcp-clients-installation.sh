@@ -14,7 +14,7 @@ sudo apt-get update && sudo apt-get install google-cloud-cli -y && \
 sudo apt-get install google-cloud-cli* -y
 
 
-gcloud auth activate-service-account --key-file=e00049-projects-workspace.json
+gcloud auth activate-service-account --key-file=/tmp/e00049-projects-workspace.json
 export GOOGLE_APPLICATION_CREDENTIALS="/tmp/e00049-projects-workspace.json"
 
 ---------------------------------------------------------------------------------------
