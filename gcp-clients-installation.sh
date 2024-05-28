@@ -1,11 +1,5 @@
 #!/usr/bin/env bash
 
-sudo useradd -s /bin/bash -d /home/e00049 -m e00049
-sudo echo -e "kubectl\nkubectl" | passwd e00049 > /dev/null 2>&1
-echo "e00049 ALL=(ALL)      NOPASSWD: ALL" >> /etc/sudoers
-sed -i 's/PasswordAuthentication no/PasswordAuthentication yes/g' /etc/ssh/sshd_config
-sed -i 's/PermitRootLogin forced-commands-only/#PermitRootLogin forced-commands-only/g' /etc/ssh/sshd_config
-systemctl restart sshd >/dev/null 2>&1
 
 sudo apt-get install apt-transport-https ca-certificates gnupg -y  && \
 echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && \
