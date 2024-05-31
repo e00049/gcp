@@ -1,5 +1,29 @@
 #!/usr/bin/env bash
 
+USERNAME="e00049"
+PASSWORD="Kubectl@123"
+SSH_CONFIG="/etc/ssh/sshd_config"
+SSH_CONFIG_DIR="/etc/ssh/sshd_config.d"
+
+adduser --disabled-password --gecos "" $USERNAME
+echo "${USERNAME}:${PASSWORD}" | chpasswd
+echo "e00049 ALL=(ALL)      NOPASSWD: ALL" >> /etc/sudoers
+
+if grep -q "^PasswordAuthentication" $SSH_CONFIG; then
+    sed -i 's/^PasswordAuthentication.*/PasswordAuthentication yes/' $SSH_CONFIG
+else
+    echo "PasswordAuthentication yes" >> $SSH_CONFIG
+fi
+
+grep -r "PasswordAuthentication" $SSH_CONFIG_DIR | while read -r line ; do
+    file=$(echo $line | cut -d: -f1)
+    if grep -q "^PasswordAuthentication no" $file; then
+        sed -i 's/^PasswordAuthentication no/PasswordAuthentication yes/' $file
+    fi
+done
+
+systemctl restart ssh
+
 
 sudo apt-get install apt-transport-https ca-certificates gnupg -y  && \
 echo "deb https://packages.cloud.google.com/apt cloud-sdk main" | sudo tee -a /etc/apt/sources.list.d/google-cloud-sdk.list && \
